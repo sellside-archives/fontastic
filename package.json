@@ -21,5 +21,8 @@
   },
   "keywords": [
     "fontastic"
-  ]
+  ],
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
 }
