@@ -1,0 +1,25 @@
+{
+  "name": "fontastic",
+  "description": "Generate custom icon web fonts.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/sellside/fontastic",
+  "author": "Jollen Chen (https://github.com/jollen)",
+  "repository": "sellside/fontastic",
+  "bugs": {
+    "url": "https://github.com/sellside/fontastic/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "fontastic"
+  ]
+}
