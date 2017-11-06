@@ -1,0 +1,25 @@
+'Totally invalid JSON.'
+{
+  "checksum": {
+    "current": "82a59e769bc60192484f2620570bbb59e225db97c1aac3f242a2e49d6060a19c", 
+    "previous": "82a59e769bc60192484f2620570bbb59e225db97c1aac3f242a2e49d6060a19c"
+  },
+  "fonts": [
+    "fontcustom_cc5ce52f2ae4f9ce2e7ee8131bbfee1e.woff",
+    "fontcustom_cc5ce52f2ae4f9ce2e7ee8131bbfee1e.ttf",
+    "fontcustom_cc5ce52f2ae4f9ce2e7ee8131bbfee1e.eot",
+    "fontcustom_cc5ce52f2ae4f9ce2e7ee8131bbfee1e.svg"
+  ],
+  "glyphs": [
+    "a_r3ally-exotic-f1le-name",
+    "c",
+    "d"
+  ],
+  "options": {
+    "foo": "bar",
+    "baz": "bum"
+  },
+  "templates": [
+    "fontcustom.css"
+  ]
+}
