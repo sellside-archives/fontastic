@@ -23,6 +23,8 @@
     "fontastic"
   ],
   "devDependencies": {
+    "capture-stream": "^0.1.2",
+    "matched": "^1.0.2",
     "mocha": "^4.0.1"
   }
 }
