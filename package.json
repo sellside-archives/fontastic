@@ -17,7 +17,8 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node bin/www"    
   },
   "keywords": [
     "fontastic"
