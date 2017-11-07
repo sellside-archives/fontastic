@@ -73,7 +73,7 @@ exports.init = function(req, res) {
         };
 
         // $ autotrace -output-format svg demo.png  -output-file demo.svg
-        childProcess.execFile('/usr/local/bin/autotrace', childArgs, options, function(err, stdout, stderr) {
+        childProcess.execFile(req.app.get('autotrace'), childArgs, options, function(err, stdout, stderr) {
             if (err) return workflow.emit('exception', err);
             
             return workflow.emit('compile');
@@ -97,7 +97,7 @@ exports.init = function(req, res) {
             cwd: path.join(__dirname, '../../public/fontcustom')
         };
 
-        childProcess.execFile('/usr/local/rvm/gems/ruby-1.9.3-p547/bin/fontcustom', childArgs, options, function(err, stdout, stderr) {
+        childProcess.execFile(req.app.get('fontcustom'), childArgs, options, function(err, stdout, stderr) {
             if (err) return workflow.emit('exception', err);
 
             workflow.outcome.console = stdout;

@@ -23,6 +23,10 @@ busboy.extend(app, {
 // utilities
 require('./utilities')(app);
 
+// local config
+app.set('autotrace', require('./config').autotrace);
+app.set('fontcustom', require('./config').fontcustom);
+
 app.use('/', require('./routes'));
 
 module.exports = app;
