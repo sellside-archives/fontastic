@@ -27,3 +27,8 @@ temp
 tmp
 TODO.md
 package-lock.json
+
+# bower
+public/vendor
+
+public/uploads
