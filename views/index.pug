@@ -1,0 +1,25 @@
+extends ./layout/default
+
+block head
+  title Fontastic
+
+block neck
+
+block feet
+  script(src='/views/index.js')
+
+block heading
+
+block body
+  section
+    .row
+      .col-md-12
+        form#pngDropzone.dropzone(action='/1/upload')
+          i.fa.fa-cloud-upload(style='font-size: 10em;') Uploader
+          h2 Drop PNG here
+
+  section
+    .container
+      .row
+        .col-md-12
+          div#status
