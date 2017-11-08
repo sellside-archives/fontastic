@@ -25,6 +25,10 @@
   ],
   "devDependencies": {
     "capture-stream": "^0.1.2",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-istanbul": "^1.1.2",
+    "gulp-mocha": "^3.0.1",
     "matched": "^1.0.2",
     "mocha": "^4.0.1"
   },
