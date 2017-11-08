@@ -16,8 +16,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // file upload
 busboy.extend(app, {
-  upload: true,  
-  path: 'public/uploads',  
+  upload: true,
+  path: 'public/uploads'
 });
 
 // utilities

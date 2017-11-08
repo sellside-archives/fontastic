@@ -47,7 +47,7 @@ exports.manifest = {
       fonts: 'fontastic',
       preview: 'fontastic'
     },
-    preprocessor_path: nil,
+    preprocessor_path: null,
     quiet: true,
     templates: [
       'css',
