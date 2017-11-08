@@ -29,6 +29,6 @@ TODO.md
 package-lock.json
 
 # bower
-public/vendor
+app/public/vendor
 
-public/uploads
+app/public/uploads
